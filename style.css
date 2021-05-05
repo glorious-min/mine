@@ -1,0 +1,30 @@
+@font-face{
+
+/*  src:local("C:\Users\glori\OneDrive\바탕 화면\MyWebPage\fonts\ka1.woff");
+  font-family:"ka1";*/
+
+  font-family: 'ka1';
+ src: url('C:/Users/glori/OneDrive/바탕 화면/MyWebPage/ka1.woff') format('woff');
+
+}
+h1{
+  font-family:'ka1';
+
+  font-size: 60px;
+  margin:20px;
+  font-style:
+
+}
+#continue{
+  font-size:60px;
+  text-align: right;
+  margin:20px;
+}
+#grid > div{
+  text-size:5vw;
+  padding:0.5em;
+  background:gold;
+  text-align : center;
+    border:4px solid black;
+    font-family:'ka1';
+}

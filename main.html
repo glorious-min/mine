@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<title>hompage-main</title>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet">
+<style>
+
+#continue{
+  font-size:70px;
+  text-align: right;
+  margin:0;
+}
+
+
+#grid{
+
+display : grid;
+grid-template-rows :repeat(2,minmax(200px,auto));
+grid-template-columns: repeat(3,minmax(200px,auto)) ;
+grid-gap: 2vw;
+line-height:200px;/*글자 세로 중간에 위치 */
+
+
+}
+#grid > div{
+  text-size:5vw;
+  padding:0.5em;
+  background:gold;
+  text-align : center;
+    border:4px solid black;
+}
+
+</style>
+</head>
+
+<body bgcolor='#0B6EEF'>
+<h1><a href=main.html>LEE GYEONGMIN</a></h1>
+<div id="grid">
+<div><a href=profile.html>PROFILE</a></div>
+<div><a href=favorite.html>FAVORITE</a></div>
+<div><a href=hobby.html>HOBBY</a></div>
+<div><a href=experience.html>EXPERIENCE</a></div>
+<div><a href=study.html>STUDY</a></div>
+<div><a href=quiz.html>QUIZ</a></div>
+</div>
+<h1 id="continue">TO BE CONTINUED</h1>
+
+  </body>
+
+
+</html>
